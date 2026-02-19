@@ -17,9 +17,9 @@
 <h3>Questão 2</h3>
 <?php 
     $soma = 0;
-for($k = 1; $k < 501; $k++){
-        if($k % 2 != 0 & $k % 3 ==0){
-            $soma += $k; }
+for($i = 1; $i < 501; $i++){
+        if($i % 2 != 0 & $i % 3 ==0){
+            $soma += $i; }
 } echo "A soma dos números ímpares múltiplos de três, de 1 até 500: $soma <br>"; ?>
     
 <h3>Questão 3</h3>
